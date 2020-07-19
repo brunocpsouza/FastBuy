@@ -32,6 +32,8 @@ namespace FastBuy.Dominio.Entidades
                 AdicionarCritica("Critica: Pedido não pode ficar sem item de pedido");
             if (string.IsNullOrEmpty(CEP)) 
                 AdicionarCritica("CEP não pode ser nulo");
+            if (FormaPagamentoId == 0)
+                AdicionarCritica("Critica: Não foi informado a forma de pagamento");
         }
 
     }

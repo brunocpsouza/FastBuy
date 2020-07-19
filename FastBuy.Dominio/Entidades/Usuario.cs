@@ -3,7 +3,7 @@ using System.Dynamic;
 
 namespace FastBuy.Dominio.Entidades
 {
-    public class Usuario
+    public class Usuario : Entidade
     {
         public int Id { get; set; }
         public string Email { get; set; }
@@ -14,6 +14,10 @@ namespace FastBuy.Dominio.Entidades
 
         public ICollection<Pedido> Pedidos { get; set; }
 
+        public override void Validate()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
                 

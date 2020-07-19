@@ -1,10 +1,11 @@
 ﻿using FastBuy.Dominio.ObjetoDeValor;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace FastBuy.Dominio.Entidades
 {
-    public class Pedido
+    public class Pedido : Entidade
     {
         public int Id { get; set; }
         public DateTime DataPedido { get; set; }
@@ -22,6 +23,16 @@ namespace FastBuy.Dominio.Entidades
 
 
         public ICollection<ItemPedido> ItensPedidos { get; set; }
+
+        public override void Validate()
+        {
+            LimparMensagemValidacao();
+
+            if (!ItensPedidos.Any())
+                AdicionarCritica("Critica: Pedido não pode ficar sem item de pedido");
+            if (string.IsNullOrEmpty(CEP)) 
+                AdicionarCritica("CEP não pode ser nulo");
+        }
 
     }
 }

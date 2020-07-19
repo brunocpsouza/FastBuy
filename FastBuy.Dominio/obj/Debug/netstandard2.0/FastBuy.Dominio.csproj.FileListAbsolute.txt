@@ -1,0 +1,9 @@
+C:\Projetos\FastBuy\FastBuy.Dominio\bin\Debug\netstandard2.0\FastBuy.Dominio.deps.json
+C:\Projetos\FastBuy\FastBuy.Dominio\bin\Debug\netstandard2.0\FastBuy.Dominio.dll
+C:\Projetos\FastBuy\FastBuy.Dominio\bin\Debug\netstandard2.0\FastBuy.Dominio.pdb
+C:\Projetos\FastBuy\FastBuy.Dominio\obj\Debug\netstandard2.0\FastBuy.Dominio.csprojAssemblyReference.cache
+C:\Projetos\FastBuy\FastBuy.Dominio\obj\Debug\netstandard2.0\FastBuy.Dominio.csproj.CoreCompileInputs.cache
+C:\Projetos\FastBuy\FastBuy.Dominio\obj\Debug\netstandard2.0\FastBuy.Dominio.AssemblyInfoInputs.cache
+C:\Projetos\FastBuy\FastBuy.Dominio\obj\Debug\netstandard2.0\FastBuy.Dominio.AssemblyInfo.cs
+C:\Projetos\FastBuy\FastBuy.Dominio\obj\Debug\netstandard2.0\FastBuy.Dominio.dll
+C:\Projetos\FastBuy\FastBuy.Dominio\obj\Debug\netstandard2.0\FastBuy.Dominio.pdb
